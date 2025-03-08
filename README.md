@@ -1,2 +1,1 @@
-# Winter 2025 Pro League Analysis
-Project for DSC80 at UCSD 
+# Winter 2025 Pro League of Legends Match Length Analysis
