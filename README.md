@@ -70,7 +70,7 @@ This cleaned DataFrame includes all the columns needed for the remainder of the 
 The nature of this project's question is inherently bivariate - however, looking at the distribution of Game Length reveals something interesting.
 
 <iframe
-  src = "/assets/game-length-hist.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/game-length-hist.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -79,7 +79,7 @@ The nature of this project's question is inherently bivariate - however, looking
 The distribution is almost normal, but still right skewed. Most of the games in the dataset are between roughly 25-35 minutes. The analysis also included plotting the distribution of total kills per game to further examine average game metrics.
 
 <iframe
-  src = "/assets/kills-hist.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/kills-hist.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -92,7 +92,7 @@ The distribution is also almost normal, with a smaller right skew. Most of the t
 A box plot was created to display the distribution of kills by position. This will help visualize whether ADCs truly have more kills on average than other roles.
 
 <iframe
-  src = "/assets/kills-box.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/kills-box.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -101,7 +101,7 @@ A box plot was created to display the distribution of kills by position. This wi
 The plot reveals that ADC does indeed have a higher median kill than every other role. Furthermore, it seems that the Support role contributes almost no kills in tier 1 professional League of Legends. Let's investigate this further by looking at a box plot to display the distribution of damage by position.
 
 <iframe
-  src = "/assets/dmg-box.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/dmg-box.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -164,7 +164,7 @@ Here is the observed distribution of `league` when `pentakills` is missing and n
 The permutation tests revealed that the **observed statistic** was simply 1, and that the **p-value** was 0, smaller than our significance level. Below is the empirical distribution of total variance distances. 
 
 <iframe
-  src = "/assets/perm-league.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-league.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -192,7 +192,7 @@ Alternative Hypothesis (H₁)
 The permutation tests show that the **observed statistic** was 0, and that the **p-value** was 1, the direct opposite of our previous results. Below is the empirical distribution of total variance distances. 
 
 <iframe
-  src = "/assets/perm-result.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-result.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -211,7 +211,7 @@ Hypothesis 1 (Kills: ADC vs. Top)
 - Alternative Hypothesis (H₁): The mean number of kills for ADC (Bot) is greater than the mean number of kills for Top lane.
 
 <iframe
-  src = "/assets/perm-Top-kills.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-Top-kills.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -222,7 +222,7 @@ Hypothesis 2 (Kills: ADC vs. Jungle)
 - Alternative Hypothesis (H₁): The mean number of kills for ADC (Bot) is greater than the mean number of kills for Jungle.
 
 <iframe
-  src = "/assets/perm-Jungle-kills.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-Jungle-kills.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -233,7 +233,7 @@ Hypothesis 3 (Kills: ADC vs. Mid)
 - Alternative Hypothesis (H₁): The mean number of kills for ADC (Bot) is greater than the mean number of kills for Mid lane.
 
 <iframe
-  src = "/assets/perm-Mid-kills.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-Mid-kills.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -244,7 +244,7 @@ Hypothesis 4 (Damage: ADC vs. Top)
 - Alternative Hypothesis (H₁): The mean damage for ADC (Bot) is greater than the mean damage for Top lane.
 
 <iframe
-  src = "/assets/perm-Top-damagetochampions.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-Top-damagetochampions.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -255,7 +255,7 @@ Hypothesis 5 (Damage: ADC vs. Jungle)
 - Alternative Hypothesis (H₁): The mean damage for ADC (Bot) is greater than the mean damage for Jungle.
 
 <iframe
-  src = "/assets/perm-Jungle-damagetochampions.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-Jungle-damagetochampions.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -266,7 +266,7 @@ Hypothesis 6 (Damage: ADC vs. Mid)
 - Alternative Hypothesis (H₁): The mean damage for ADC (Bot) is greater than the mean damage for Mid lane.
 
 <iframe
-  src = "/assets/perm-Mid-damagetochampions.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/perm-Mid-damagetochampions.html"
   width = "600"
   height = "600"
   frameborder="2"
@@ -358,7 +358,7 @@ With the completion of the final predictive model, it is now necessary to assess
     - Macro-averaged F1 score difference between Group X and Group Y
 
 <iframe
-  src = "/assets/macro-final-perm.html"
+  src = "/Winter-2025-Pro-League-Analysis/assets/macro-final-perm.html"
   width = "600"
   height = "600"
   frameborder="2"
